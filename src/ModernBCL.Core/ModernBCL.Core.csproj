@@ -6,8 +6,8 @@
     references, file includes, and the 'pack' target, fixing the MSB4057 error.
     -->
 
-		<!-- Targeting .NET Framework 4.8.1 (the latest legacy framework version) -->
-		<TargetFramework>net481</TargetFramework>
+		<!-- Targeting .NET Framework 4.8.0 and 4.8.1 (the latest legacy framework version) -->
+		<TargetFrameworks>net48;net481</TargetFrameworks>
 
 		<!-- Standard build properties -->
 		<LangVersion>9.0</LangVersion>
@@ -21,10 +21,10 @@
 
 		<!-- === NuGet Package Information === -->
 		<PackageId>ModernBCL.Core.BLC</PackageId>
-		<Version>1.1.0</Version>
+		<Version>1.1.1</Version>
 		<Authors>livedcode</Authors>
-		<AssemblyVersion>1.1.0.0</AssemblyVersion>
-		<FileVersion>1.1.0.0</FileVersion>
+		<AssemblyVersion>1.1.0.1</AssemblyVersion>
+		<FileVersion>1.1.0.1</FileVersion>
 		<Description>
 			A high-performance, order-sensitive polyfill for System.HashCode, enabling modern C# dictionary key efficiency in legacy .NET Framework applications.
 			This package is part of the ModernBCL.Core effort to bridge feature gaps.

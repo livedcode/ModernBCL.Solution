@@ -84,6 +84,9 @@ System.HashCode: Implements a standard mixing algorithm using two internal accum
 ThrowHelper: Uses the [CallerArgumentExpression] polyfill (included in this package) to automatically capture variable names, allowing you to write ThrowIfNull(arg) without manually passing nameof(arg).
 
 📜 Changelog
+Version 1.1.1
+
+Added: Support both net48 and net481 target frameworks for broader compatibility.
 
 Version 1.1.0
 

@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
 
+[1.1.1] - 2025-11-25
+
+Added
+
+Support both net48 and net481 target frameworks for broader compatibility.
+
 [1.1.0] - 2025-11-25
 
 Added 
